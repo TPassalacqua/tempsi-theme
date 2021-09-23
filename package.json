@@ -1,0 +1,32 @@
+{
+	"name": "tempsi_theme",
+	"displayName": "Tempsi Theme",
+	"description": "Tempsi Theme",
+	"version": "1.0.0",
+	"publisher": "tempsi",
+	"galleryBanner": {
+		"color": "#282C34",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark",
+		"tempsi"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "tempsi_theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/tempsi-theme-color-theme.json"
+			}
+						
+		]
+	}
+}
